@@ -28,6 +28,7 @@
       <change afterPath="$PROJECT_DIR$/FixedAssets_FE/templates/submit.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/FixedAssets.docx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/FixedAssets.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/move_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.main.executor": "Run",
+    "Python.move_files.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/home/anonymous/Documents/FixedAssets"
   }
