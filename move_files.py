@@ -5,23 +5,41 @@ import shutil
 def move_files():
     base_dir = "/home/anonymous/Documents/FixedAssets/FixedAssets_BE"
 
-    # Dictionary mapping file extensions to destination directories
+    # Mapping of files to their destination directories
+    file_mappings = {
+        "__init__.py": "app",
+        "main.py": "app",
+        "settings.py": "app",
+        "requirements.txt": base_dir,
+        ".env": base_dir,
+        "db.sqlite3": "app",
+        "manage.py": "app",
+        "scripts": base_dir,
+        "migrations": base_dir,
+        "tests": base_dir
+    }
+
+    # File extensions and their destination directories
     file_types = {
-        ".py": "app",  # Python scripts go to the app directory
-        ".html": "app/templates",  # HTML templates go to app/templates directory
-        ".sqlite3": "app",  # SQLite database goes to app directory
-        # Add more file types and their respective directories as needed
+        ".py": "app",
+        ".html": "app/templates",
+        ".sqlite3": "app",
     }
 
     for root, _, files in os.walk(base_dir):
         for filename in files:
             source_path = os.path.join(root, filename)
-            file_extension = os.path.splitext(filename)[1]
+            destination_dir = None
 
-            if file_extension in file_types:
-                destination_dir = os.path.join(base_dir, file_types[file_extension])
+            if filename in file_mappings:
+                destination_dir = os.path.join(base_dir, file_mappings[filename])
+            else:
+                file_ext = os.path.splitext(filename)[1]
+                if file_ext in file_types:
+                    destination_dir = os.path.join(base_dir, file_types[file_ext])
+
+            if destination_dir:
                 destination_path = os.path.join(destination_dir, filename)
-
                 try:
                     if not os.path.exists(destination_dir):
                         os.makedirs(destination_dir)
