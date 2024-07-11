@@ -11,6 +11,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/manage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/submit.html" afterDir="false" />
