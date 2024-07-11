@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Form, Request
 from fastapi.templating import Jinja2Templates
+import uvicorn
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
@@ -12,3 +13,6 @@ async def read_root(request: Request):
 async def submit_form(request: Request, name: str = Form(...)):
     # Process form submission or other backend logic
     return templates.TemplateResponse("submit.html", {"request": request, "name": name})
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
