@@ -1,0 +1,13 @@
+<!-- templates/index.html -->
+<html>
+<head>
+    <title>{{ project_name }}</title>
+</head>
+<body>
+    <h1>Welcome to {{ project_name }}</h1>
+    <form action="/submit/" method="post">
+        <input type="text" name="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
