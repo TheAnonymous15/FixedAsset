@@ -15,4 +15,4 @@ async def submit_form(request: Request, name: str = Form(...)):
     return templates.TemplateResponse("submit.html", {"request": request, "name": name})
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
