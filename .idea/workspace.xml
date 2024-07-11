@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ea6c3b5-6a91-4af5-827d-34ff04d07f1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.hgignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/FixedAssets.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -15,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/asgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/settings.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/views.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FixedAssets_BE/FixedAssets_BE/wsgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FixedAssets_BE/manage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -29,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
