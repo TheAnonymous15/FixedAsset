@@ -75,16 +75,16 @@
     "Python.move_files.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/anonymous/Documents/FixedAssets/FixedAssets_BE/app/utils"
+    "last_opened_file_path": "/home/anonymous/Documents/FixedAssets/FixedAssets_BE"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FixedAssets_BE" />
       <recent name="$PROJECT_DIR$/FixedAssets_BE/app/utils" />
       <recent name="$PROJECT_DIR$/FixedAssets_BE/app/static" />
       <recent name="$PROJECT_DIR$/FixedAssets_BE/app/services" />
       <recent name="$PROJECT_DIR$/FixedAssets_BE/app/routes" />
-      <recent name="$PROJECT_DIR$/FixedAssets_BE/app/models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FixedAssets_BE" />
